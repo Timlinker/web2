@@ -1,0 +1,38 @@
+body, html {
+    margin: 0;
+    padding:0;
+}
+
+.container {
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.block {
+    flex: 1;
+    border: 1px solid DarkTurquoise;
+    max-height: 400px;
+    overflow: auto;
+}
+.block2 {
+    flex: 1;
+    border: 1px solid DarkTurquoise;
+    max-height: 400px;
+    overflow: auto;
+
+}
+.golova {
+    border: 1px solid DarkTurquoise;
+    background: linear-gradient(to bottom, LightCyan 50%, PaleTurquoise 50%);
+
+}
+table {
+    width: 100%;
+    border: 1px solid black;
+}
+th, td {
+    border: 1px solid black; /* Добавить границу к ячейкам */
+    text-align: center;
+}
